@@ -1,0 +1,59 @@
+body {
+    background-image: url(imagenes/waifu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+
+}
+
+.Inicio p {
+    color: brown;
+    font-size: 30px;
+
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.TITULOS h1 {
+    text-align: center;
+    color: rgb(35, 176, 176);
+    font-size: 95px;
+    margin: 0%;
+}
+
+p {
+    text-align: center;
+    color: rgb(99, 92, 57);
+}
+label{
+    color: rgb(78, 3, 3);
+    border: 3px solid rgb(230, 230, 230);
+    padding: 5px;
+    display: inline-block;
+    padding: auto;
+    font-size: 23px;
+    
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0vh;
+    font-size: 50px;
+}
+.escuelas{
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 2px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Bebas Neue";
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Presentacion Personal</title>
+  <link rel="stylesheet" href="Estilo4.css">
+  <script src="Extra4.js"></script>
+  <style>
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      padding: 10px 0;
+      z-index: 1000; 
+    }
+
+
+    .content {
+      margin-top: 80px; 
+      padding: 20px;
+    }
+
+  </style>
+  <div class="navbar" id="fijo">
+    <div class="container">
+      <h1 >Mi Presentacion Personal</h1>
+
+    </div>
+  </div>
+</head>
+
+<body>
+ 
+  
+
+ 
+  <div class="content">
+    <img src="imagenes/yo.jpg" alt="paladin" width="500px" />
+    <div class="Inicio">
+      <p>
+        Mucho gusto me llamo Franco Nilver Mamani Mamani, soy de la ciudad de
+        Puno.
+      </p>
+    </div>
+    <p>
+      Soy un chico de 18 años me apasiona cualquier cosa que tenga que ver con
+      la fantasía <br />
+      como también me gusta mucho conocer diferentes cosas por razón que soy
+      algo entusiasta <br />
+      cuando se trata de conspiraciones, pero mi mayor sueño es llegar a conocer
+      todo el mundo las <br />
+      culturas, paisajes y demás.
+    </p>
+    <label for="Items">Tecnologías y Lenguajes de Programación</label>
+    <ul>
+      <li>Python</li>
+      <li>Conexiones de Red</li>
+      <li>Java</li>
+    </ul>
+    <label for="Items">Formación Académica</label>
+    <ul>
+      <li>Inicial-Santa Rosa</li>
+      <li>Primaria-Jose Antonio Encinas</li>
+      <li>Secundario-Colegio de Ciencias Buen Pastor</li>
+      <li>Educación Superior-Tecsup
+        <div class="escuelas">
+          <button onclick="window.location.href='http://www.tecsup.edu.pe/'">ver</button>
+        </div>
+      </li>
+    </ul>
+    <label for="Items">Idiomas</label>
+    <div class="boton">
+      <p>--></p><button onclick="extra()">(Info)</button>
+      <p><--</p>
+    </div>
+    <ul>
+      <li>Castellano</li>
+      <li>Quechua</li>
+      <li>Aymara</li>
+      <li>Inglés (nivel muy básico)</li>
+    </ul>
+  </div>
+</body>
+
+</html>
